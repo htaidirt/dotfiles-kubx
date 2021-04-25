@@ -1,3 +1,12 @@
+# To fix issue of Latte dock not showing snaps after reboot,
+# Follow instructions of this Stack Overflow response:
+# Source: https://askubuntu.com/questions/910821/programs-installed-via-snap-not-showing-up-in-launcher#answer-1086249
+#
+if [ ! -f $HOME/.config/plasma-workspace/env/snap-apps.sh ];
+then
+  cp $HOME/.setup/snaps/snap-apps.sh $HOME/.config/plasma-workspace/env
+fi
+
 # Install Spotify
 #
 if ! command -v spotify &> /dev/null
