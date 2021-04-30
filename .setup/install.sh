@@ -9,6 +9,7 @@ sudo apt upgrade -y
 ./conky/install.sh
 ./dropbox/install.sh
 ./zsh/install.sh
+./brave/install.sh
 
 # Keep last because least important
 ./snaps/install.sh

@@ -5,7 +5,7 @@ fi
 
 if ! command -v curl &> /dev/null
 then
-	sudo apt install -y curl
+  sudo apt install -y apt-transport-https curl
 fi
 
 if ! command -v git &> /dev/null
