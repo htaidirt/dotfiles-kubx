@@ -10,6 +10,7 @@ sudo apt upgrade -y
 ./dropbox/install.sh
 ./zsh/install.sh
 ./brave/install.sh
+./nordvpn/install.sh
 
 # Keep last because least important
 ./snaps/install.sh
